@@ -1,12 +1,11 @@
+/*styles for my resume
+*/
 body {
  font-family: Arial, open-sans;
  color: #444
 }
-
-.navigation li{
-    font-size: 1em;
-}
-
+/*This styles my name 
+*/
 h1 {
   font-size: 3em;  
   color: #33485e;
@@ -14,16 +13,20 @@ h1 {
   text-align: center;
 }
 
- .image {
-    width: 300px;
- }
-
-.title {
+/*This styles my title
+*/
+strong {
     text-transform: uppercase;
     font-size: 1.5em;
     color:#33485e;
  }
- 
+
+ li {
+    font-size: 1em;
+ }
+
+ /*This styles my section titles
+*/
  h2 {
      text-transform: uppercase;
     font-size: 1.5em;
@@ -32,16 +35,22 @@ h1 {
      font-weight: 400;
  }
 
+/*This styles my job titles
+*/
  h3{
     font-weight: 600;
     font-size: 1.5em;
  }
- 
+
+ /*This styles my job organization
+ */
  h4{
     font-weight: 400;
     font-size: 1.5em;
  }
- 
+
+ /*This styles my job dates
+ */
  h5{
     font-weight: 400;
     font-size: 1em;
