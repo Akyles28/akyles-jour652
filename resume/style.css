@@ -3,6 +3,10 @@ body {
  color: #444
 }
 
+.navigation li{
+    font-size: 1em;
+}
+
 h1 {
   font-size: 3em;  
   color: #33485e;
