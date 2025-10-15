@@ -1,0 +1,48 @@
+h1,h2, h3 {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.navbar-brand {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.bi-calendar-date{
+    size: 3em;
+    font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.bi-chat-left-dots{
+    size: 3em;
+    font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; 
+}
+
+.bi-book{
+    size: 3em;
+    font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+@media only screen and (max-width: 500px) {
+    .row{
+    padding-bottom: 50px;
+    }
+    .h2{
+padding-top: 50px;
+background-color: teal;
+    }
+}
+
