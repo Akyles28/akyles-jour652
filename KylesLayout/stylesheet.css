@@ -17,7 +17,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif   
 }
 
-.img {
+#image {
 max-width: 100%;
 height: auto;
 display: block;
