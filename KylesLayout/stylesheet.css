@@ -1,7 +1,13 @@
 img {
     max-width: 100%;
     height: auto;
+}
 
+.center{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 #content {
@@ -23,6 +29,8 @@ display: block;
 margin-bottom: 1em;
 }
 
+
+
 .h1{
 font: Helvetica, sans-serif;
 font-weight: 13px;
@@ -42,8 +50,15 @@ text-align: center;
 }
 
 
-.blockquote{
-    
+blockquote{
+font: 16px/24px normal helvetica, sans-serif;
+font-style: italic;
+margin-top: 15px;  
+margin-bottom: 15px;
+color: red; 
+margin-left: 50px;
+padding-left: 15px;
+border-left: 4px solid #ccc;
 }
 
 .h4{
