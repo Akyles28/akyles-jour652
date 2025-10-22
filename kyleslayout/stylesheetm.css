@@ -1,0 +1,62 @@
+.center{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#content {
+    margin: 0 auto;
+    width: 900px;
+    max-width: 100%;
+    height: auto;
+}
+
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif   
+}
+
+/*This styles my photos on my webpage 
+*/
+#image {
+max-width: 100%;
+height: auto;
+display: block;
+margin-bottom: 1em;
+}
+
+
+
+.h1{
+font: Helvetica, sans-serif;
+font-weight: 14px;
+}
+
+.byline{
+    font-family: Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.p{
+font-family: Helvetica, Arial, sans-serif;  
+font-size: 12px;
+margin-bottom: 1em;
+text-align: center;  
+}
+
+
+blockquote{
+font: 16px/24px normal helvetica, sans-serif;
+font-style: italic;
+margin-top: 15px;  
+margin-bottom: 15px;
+color: red; 
+margin-left: 50px;
+padding-left: 15px;
+border-left: 4px solid #ccc;
+}
+
+.h4{
+font-weight: bold;
+text-align: center;
+}
