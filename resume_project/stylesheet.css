@@ -1,0 +1,27 @@
+body {
+    background-image: url('images/newsprint.jpeg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed;
+  }
+
+img {
+width: 100%;
+height: auto;
+}
+
+.container{
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-top: 50px;  
+margin-bottom: 50px; 
+margin-left: 50px;
+padding-left: 50px;
+background-color: #97CE7D; 
+border-radius: 5%;  
+text-align: center;
+}
+
+.h2{
+font-size: 26px;
+font-weight: 18px;
+}
