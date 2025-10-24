@@ -8,6 +8,18 @@ body {
 img {
 width: 100%;
 height: auto;
+max-width: 100%;
+}
+
+.container1{
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-top: 50px;  
+margin-bottom: 50px; 
+margin-left: 50px;
+padding-left: 50px;
+background-color: #97CE7D; 
+border-radius: 5%;
+text-align: left;
 }
 
 .container{
@@ -18,10 +30,13 @@ margin-left: 50px;
 padding-left: 50px;
 background-color: #97CE7D; 
 border-radius: 5%;  
-text-align: center;
 }
 
 .h2{
 font-size: 26px;
 font-weight: 18px;
+}
+
+#col-6{
+    text-align: center;
 }
