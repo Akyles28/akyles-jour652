@@ -5,6 +5,10 @@ body {
     background-attachment: fixed;
   }
 
+  html{
+    scroll-behavior: smooth;
+  }
+
   .navbar-brand {
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
@@ -28,6 +32,7 @@ margin: 50px auto;
 width: 60%; 
 border-radius: 5%;
 text-align: left;
+opacity: 0.8;
 }
 
 .row{
@@ -37,24 +42,40 @@ text-align: left;
   padding: 10;
 }
 
-.col-md-8{
+.container2{
 flex: 2; 
 font-family: Georgia, 'Times New Roman', Times, serif;
 padding:20px;
 border-radius: 5%;
 background-color: #97CE7D;
 opacity: 0.8;
-text-align: left;
+text-align: center;
+ height: auto;
+  display: block;
+  border-radius: 5%;
+  margin: 50px auto;
 }
 
-.col-md-4{
+.col-md-6{
 flex: 1;
 font-family: Georgia, 'Times New Roman', Times, serif;
 padding:20px;
 border-radius: 5%;
 background-color: #97CE7D; 
 opacity: 0.8;
-text-align: left; 
+text-align: left;
+ height: auto;
+  display: block;
+  border-radius: 5%;
+  margin: 50px auto; 
+}
+
+hr{
+  border: none;
+  border-top: 5px solid #555;
+  border-bottom: 20px solid #555;
+  padding: 15px;
+  margin: 20px 0;
 }
 
 @media (max-width:768px) {
@@ -64,13 +85,28 @@ text-align: left;
 }
 
 
-.h2{
+h2{
 font-size: 26px;
 font-weight: 18px;
+text-align: center;
 }
+
+h3{
+  text-align: center;
+}
+
+h4{
+  text-align: center;
+}
+
+h5{
+  text-align: center;
+}
+
 
 footer{
 text-align: center;
 padding: 15px 0;
+border-bottom: ;
 }
 
