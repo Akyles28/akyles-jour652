@@ -20,12 +20,16 @@ p {
 line-height: 180%;
 }
 
+
 #image {
 width: 50%;
   height: auto;
   display: block;
-  border-radius: 5%;
   margin: 50px auto;
+}
+
+#image-caption {
+  text-align: center;
 }
 
 footer {
