@@ -196,7 +196,7 @@ body, body * {
 /* Lists inside the panels: no bullets or indent, so they center properly */
 .about-me ul, .about-me ol,
 .container1 ul, .container1 ol {
-  list-style: none;
+  list-style-position: inside;
   padding: 0;
   margin-left: 0;
   margin-right: 0;
